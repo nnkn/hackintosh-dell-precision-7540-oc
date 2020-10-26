@@ -57,3 +57,18 @@ dell precision-7540 oc hackintosh alc289 黑苹果配置文件
 - 读卡器不能驱动
 - 后面HDMI口和miniDP口由独显驱动，故无法外接显示器
 
+
+
+![2b41234b0b041bbe37611ab04fa2aa79](screenshots/2b41234b0b041bbe37611ab04fa2aa79.png)
+
+![2b41234b0b041bbe37611ab04fa2aa79](screenshots/iShot2020-10-26 09.49.55.png)
+
+![iShot2020-10-26 09.50.02](screenshots/iShot2020-10-26 09.50.02.png)
+
+![iShot2020-10-26 09.50.18](screenshots/iShot2020-10-26 09.50.18.png)
+
+![iShot2020-10-26 09.50.25](screenshots/iShot2020-10-26 09.50.25.png)
+
+![iShot2020-10-26 09.50.39](screenshots/iShot2020-10-26 09.50.39.png)
+
+![iShot2020-10-26 09.55.23](screenshots/iShot2020-10-26 09.55.23.png)
