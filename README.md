@@ -58,6 +58,15 @@ dell precision-7540 oc hackintosh alc289 黑苹果配置文件
 - 后面HDMI口和miniDP口由独显驱动，故无法外接显示器
 
 
+***
+
+2020年10月26日   
+
+更新APPLEALC.Kext为这个大佬编译的版本，现在耳机已无破音了。
+
+https://www.tonymacx86.com/threads/solved-appleacl-microphone-not-working-alc289.297349/post-2121229
+
+***
 
 ***
 
