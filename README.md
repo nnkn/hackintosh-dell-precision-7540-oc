@@ -1,4 +1,5 @@
 # hackintosh-dell-precision-7540-oc
+
 dell precision-7540 oc hackintosh alc289 黑苹果配置文件
 
 
@@ -60,21 +61,15 @@ dell precision-7540 oc hackintosh alc289 黑苹果配置文件
 
 ***
 
-2020年10月26日   
 
-更新APPLEALC.Kext为这个大佬编译的版本，现在耳机已无破音了。
-
-https://www.tonymacx86.com/threads/solved-appleacl-microphone-not-working-alc289.297349/post-2121229
-
-***
-
-***
 
 2020年10月28日 
 
 解决TYPE-C外接显示器无输入的问题
 
 http://bbs.pcbeta.com/viewthread-1834012-1-2.html
+
+
 
 
 2020年10月26日   
