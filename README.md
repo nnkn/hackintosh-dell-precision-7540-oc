@@ -44,18 +44,37 @@ dell precision-7540 oc hackintosh alc289 黑苹果配置文件
 
 ## 存在问题
 
-- 插耳机有杂音
+- ~~插耳机有杂音~~
 - 雷电扩展坞无设备，未测试
-- 只能雷电口外接显示器，目前内建显示器和外接显示器只能驱动一个
-  - 驱动外接显示器办法：关机合盖开机，进桌面后可以开盖
-- 开机后BIOS里的`enable switchable graphics`会重置为未勾选（这样会屏蔽集显）
-  - 已自己写了个hot patch解决
+- ~~只能雷电口外接显示器，目前内建显示器和外接显示器只能驱动一个~~
+  - ~~驱动外接显示器办法：关机合盖开机，进桌面后可以开盖~~
+- ~~开机后BIOS里的`enable switchable graphics`会重置为未勾选（这样会屏蔽集显）~~
+  - ~~已自己写了个hot patch解决~~
 
 ## 不工作
 
 - 独显不能驱动
 - 读卡器不能驱动
 - 后面HDMI口和miniDP口由独显驱动，故无法外接显示器
+
+
+
+***
+
+2020年10月28日 
+
+解决TYPE-C外接显示器无输入的问题
+
+http://bbs.pcbeta.com/viewthread-1834012-1-2.html
+
+
+2020年10月26日   
+
+更新APPLEALC.Kext为这个大佬编译的版本，现在耳机已无破音了。
+
+https://www.tonymacx86.com/threads/solved-appleacl-microphone-not-working-alc289.297349/post-2121229
+
+***
 
 
 
