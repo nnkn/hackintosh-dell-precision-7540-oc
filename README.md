@@ -61,6 +61,11 @@ dell precision-7540 oc hackintosh alc289 黑苹果配置文件
 
 ***
 
+2020年11月15日 
+
+1. 升级OC到6.3
+2. 更换了`SMBIOS`到`MacBookPro16,3`，现在原生支持`uhd630`显卡及外接显示器了
+
 
 
 2020年10月28日 
