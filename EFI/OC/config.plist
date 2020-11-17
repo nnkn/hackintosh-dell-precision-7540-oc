@@ -268,14 +268,32 @@
 				<key>model</key>
 				<string>Cannon Lake PCH cAVS</string>
 			</dict>
-			<key># PciRoot(0x0)/Pci(0x2,0x0)</key>
+			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
+				<key># framebuffer-con0-alldata</key>
+				<data>AAAIAAIAAACYAQAA</data>
 				<key>AAPL,ig-platform-id</key>
 				<data>AACbPg==</data>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,2,0</string>
 				<key>device_type</key>
 				<string>VGA compatible controller</string>
+				<key>framebuffer-con0-enable</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-con0-flags</key>
+				<data>mAEAAA==</data>
+				<key>framebuffer-con1-alldata</key>
+				<data>AQUJAAAIAADHAwAA</data>
+				<key>framebuffer-con1-enable</key>
+				<data>AAAAAA==</data>
+				<key>framebuffer-con2-alldata</key>
+				<data>AgQKAAAEAADHAwAA</data>
+				<key>framebuffer-con2-enable</key>
+				<data>AAAAAA==</data>
+				<key>framebuffer-patch-enable</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-unifiedmem</key>
+				<data>AAAAgA==</data>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>model</key>
@@ -837,7 +855,7 @@
 				<key>Comment</key>
 				<string>定制USB port</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>MaxKernel</key>
@@ -855,7 +873,7 @@
 				<key>Comment</key>
 				<string>定制USB port</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>MaxKernel</key>
@@ -873,7 +891,7 @@
 				<key>Comment</key>
 				<string>启用所有的USB端口，定制后禁用</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/USBInjectAll</string>
 				<key>MaxKernel</key>
@@ -1627,16 +1645,16 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro16,3</string>
 			<key>SystemSerialNumber</key>
-			<string>C02CCBY5P3XY</string>
+			<string>C02CD2YPP3XY</string>
 			<key>SystemUUID</key>
-			<string>6A9FE95A-180B-4E4B-87CD-E9F4F988FC54</string>
+			<string>E77BB9BA-F390-46B2-9BEA-F6EC091778B0</string>
 		</dict>
 		<key>Generic</key>
 		<dict>
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02009200J90000UE</string>
+			<string>C02010600J900001F</string>
 			<key>ProcessorType</key>
 			<integer>1793</integer>
 			<key>SystemMemoryStatus</key>
@@ -1648,9 +1666,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro16,3</string>
 			<key>SystemSerialNumber</key>
-			<string>C02CCBY5P3XY</string>
+			<string>C02CD2YPP3XY</string>
 			<key>SystemUUID</key>
-			<string>6A9FE95A-180B-4E4B-87CD-E9F4F988FC54</string>
+			<string>E77BB9BA-F390-46B2-9BEA-F6EC091778B0</string>
 		</dict>
 		<key>PlatformNVRAM</key>
 		<dict>
@@ -1661,66 +1679,9 @@
 			<key>FirmwareFeaturesMask</key>
 			<data>f////wAAAAA=</data>
 			<key>MLB</key>
-			<string>C02009200J90000UE</string>
+			<string>C02010600J900001F</string>
 			<key>ROM</key>
 			<data>2eJT/jhX</data>
-		</dict>
-		<key>SMBIOS</key>
-		<dict>
-			<key>BIOSReleaseDate</key>
-			<string>10/29/2020</string>
-			<key>BIOSVendor</key>
-			<string></string>
-			<key>BIOSVersion</key>
-			<string>1554.50.3.0.0</string>
-			<key>BoardAssetTag</key>
-			<string>Base Board Asset Tag</string>
-			<key>BoardLocationInChassis</key>
-			<string>Part Component</string>
-			<key>BoardManufacturer</key>
-			<string></string>
-			<key>BoardProduct</key>
-			<string>Mac-E7203C0F68AA0004</string>
-			<key>BoardSerialNumber</key>
-			<string>C02009200J90000UE</string>
-			<key>BoardType</key>
-			<integer>10</integer>
-			<key>BoardVersion</key>
-			<string>MacBookPro16,3</string>
-			<key>ChassisAssetTag</key>
-			<string>Asset Tag#</string>
-			<key>ChassisManufacturer</key>
-			<string></string>
-			<key>ChassisSerialNumber</key>
-			<string>C02CCBY5P3XY</string>
-			<key>ChassisType</key>
-			<integer>9</integer>
-			<key>ChassisVersion</key>
-			<string>Mac-E7203C0F68AA0004</string>
-			<key>FirmwareFeatures</key>
-			<data>ZvCv/QAAAAA=</data>
-			<key>FirmwareFeaturesMask</key>
-			<data>f////wAAAAA=</data>
-			<key>PlatformFeature</key>
-			<integer>50</integer>
-			<key>ProcessorType</key>
-			<integer>0</integer>
-			<key>SmcVersion</key>
-			<data></data>
-			<key>SystemFamily</key>
-			<string>MacBook Pro</string>
-			<key>SystemManufacturer</key>
-			<string></string>
-			<key>SystemProductName</key>
-			<string>MacBookPro16,3</string>
-			<key>SystemSKUNumber</key>
-			<string>System SKU#</string>
-			<key>SystemSerialNumber</key>
-			<string>C02CCBY5P3XY</string>
-			<key>SystemUUID</key>
-			<string>6A9FE95A-180B-4E4B-87CD-E9F4F988FC54</string>
-			<key>SystemVersion</key>
-			<string>1.0</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>

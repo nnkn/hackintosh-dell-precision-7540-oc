@@ -61,6 +61,11 @@ dell precision-7540 oc hackintosh alc289 黑苹果配置文件
 
 ***
 
+2020年11月17日 
+
+1. 解决hdmi输出无声音的问题
+2. 适配big sur ，但我还是用catalina（itlwm和音频驱动还是用的catalina的）
+
 2020年11月15日 
 
 1. 升级OC到6.3
